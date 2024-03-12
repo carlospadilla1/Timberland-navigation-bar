@@ -86,7 +86,7 @@ button {
     background-color: salmon;
     color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
-    padding: 5px 15px;
+    padding: 5px 12px;
     border: none;
     border-radius: 15px;
     font-size: large;
@@ -96,8 +96,7 @@ button {
 
 button:hover {
     transform: scale(1.1);
-    color: salmon;
+    color: rgb(255, 69, 48);
     background-color: white;
     border-radius: 15px;
-    border: none;
 }
