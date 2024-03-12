@@ -35,7 +35,7 @@ img:hover {
 }
 
 /*Nav animations and styles*/
-a {
+a, button {
     text-decoration: none;
     font-weight: 700;
     color: black;
@@ -55,14 +55,13 @@ li:hover {
 }
 
 /*Colores Men, Women and Sale*/
-.men,
-.women {
+.men, .women {
     color: rgb(164, 164, 164);
     text-decoration: underline;
 }
 
 .women:hover {
-    color: rgb(255, 39, 194);
+    color: salmon;
 }
 
 .men:hover {
@@ -80,4 +79,25 @@ li:hover {
 .sale:hover {
     color: rgb(255, 25, 0);
     border: solid 3px rgb(255, 25, 0);
+}
+
+/*Button*/
+button {
+    background-color: salmon;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: salmon;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
 }
